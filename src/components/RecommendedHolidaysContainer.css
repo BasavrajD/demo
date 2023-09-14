@@ -1,0 +1,103 @@
+.recommended-holidays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.view-all-holidays {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124.01px;
+  flex-shrink: 0;
+}
+.arrow-right-icon2 {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.view-all-holidays-parent {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 149.43px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.48px;
+  text-align: right;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+}
+.rec-cards-container,
+.rec-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rec-cards-container {
+  align-items: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.view-all-holidays1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 124.01px;
+  flex-shrink: 0;
+}
+.view-all-bottom1 {
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 149.43px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.48px;
+  text-align: right;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+}
+.recommended-holidays-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 17.94px;
+  text-align: left;
+  font-size: 22.43px;
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 768px) {
+  .view-all-holidays-parent {
+    display: none;
+  }
+  .rec-cards-container {
+    margin-left: -16px;
+    margin-right: -16px;
+    flex-wrap: wrap;
+  }
+  .view-all-holidays1 {
+    width: auto;
+  }
+  .view-all-bottom1 {
+    display: flex;
+    mrgin-top: 16px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .recommended-holidays {
+    font-size: var(--font-size-3xl);
+  }
+}

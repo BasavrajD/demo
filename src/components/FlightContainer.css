@@ -1,0 +1,309 @@
+.sin,
+.singapore,
+.upcoming-flight {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 947.92px;
+}
+.sin,
+.singapore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  width: 33.44px;
+  height: 20.93px;
+}
+.singapore {
+  top: 22.43px;
+  font-size: 10.47px;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 53.82px;
+  height: 11.96px;
+}
+.from-details {
+  position: relative;
+  width: 53.82px;
+  height: 34.39px;
+}
+.h-55m {
+  position: absolute;
+  top: 20.99px;
+  left: 17.71px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 49.08px;
+  height: 11.96px;
+}
+.duration-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 87.72px;
+  height: 17.94px;
+}
+.duration {
+  position: relative;
+  width: 87.72px;
+  height: 32.96px;
+  font-size: 10.47px;
+  color: var(--color-gray-100);
+}
+.lax,
+.los-angeles {
+  position: absolute;
+  top: 0;
+  left: 26.91px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 38.33px;
+  height: 20.93px;
+}
+.los-angeles {
+  top: 22.43px;
+  left: 0;
+  font-size: 10.47px;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 65.24px;
+  height: 11.96px;
+}
+.to-details {
+  position: relative;
+  width: 65.24px;
+  height: 34.39px;
+  text-align: right;
+}
+.to-and-from {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.horizontal-line {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 0.75px;
+}
+.days-to-go-container,
+.departs-on-1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.departs-on-1 {
+  text-transform: capitalize;
+  width: 152.42px;
+}
+.days-to-go-container {
+  text-align: right;
+  width: 65.21px;
+}
+.departure-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10.47px;
+  color: var(--color-gray-100);
+}
+.flight-main-container {
+  border-radius: 5.98px;
+  border: 0.7px solid var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  padding: 14.950791358947754px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-7);
+}
+.line-separator {
+  position: relative;
+  border-right: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 0.75px;
+  height: 109.13px;
+}
+.prepare-for-your {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.hotel-child,
+.hotel1 {
+  position: relative;
+  width: 48.88px;
+  height: 48.88px;
+}
+.hotel1 {
+  font-size: 11.21px;
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 29.15px;
+  height: 13.46px;
+  flex-shrink: 0;
+}
+.hotel {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5.98px;
+}
+.attractions-child {
+  position: relative;
+  border-radius: 11.96px;
+  width: 48.88px;
+  height: 48.88px;
+}
+.attractions1,
+.eats1 {
+  position: relative;
+  font-size: 11.21px;
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 59.8px;
+  height: 13.46px;
+  flex-shrink: 0;
+}
+.eats1 {
+  width: 23.92px;
+}
+.commute1,
+.taxi-child {
+  position: relative;
+  width: 52.33px;
+}
+.commute1 {
+  font-size: 11.21px;
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  height: 13.46px;
+  flex-shrink: 0;
+}
+.taxi-child {
+  border-radius: 11.96px;
+  height: 48.88px;
+}
+.movies1,
+.taxi1 {
+  position: relative;
+  font-size: 11.21px;
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 24.01px;
+}
+.movies1 {
+  width: 38.87px;
+  height: 13.46px;
+  flex-shrink: 0;
+}
+.trip-menus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.flight-details,
+.prepare-menu,
+.upcoming-flight-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.prepare-menu {
+  flex: 1;
+  flex-direction: column;
+  gap: 14.95px;
+  font-size: 13.46px;
+  color: var(--color-lightgray);
+}
+.flight-details,
+.upcoming-flight-section {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 26.91px;
+  font-size: 17.94px;
+  color: var(--color-cornflowerblue-200);
+}
+.upcoming-flight-section {
+  flex-direction: column;
+  gap: 14.95px;
+  text-align: left;
+  font-size: 13.46px;
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1440px) {
+  .flight-main-container {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .horizontal-line {
+    width: 100%;
+  }
+  .flight-main-container {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .line-separator {
+    display: none;
+  }
+  .prepare-menu {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flight-details {
+    flex-direction: column;
+  }
+  .upcoming-flight-section {
+    display: block;
+  }
+}
+@media screen and (max-width: 428px) {
+  .hotel {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+  .trip-menus {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}

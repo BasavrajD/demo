@@ -1,0 +1,185 @@
+.hero-section,
+.home-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-section {
+  align-self: stretch;
+}
+.home-contents {
+  width: 100%;
+  padding: 0 59.803165435791016px;
+  box-sizing: border-box;
+  gap: 59.8px;
+  max-width: 1280px;
+}
+.form-title,
+.form-title-subtext {
+  align-self: stretch;
+  position: relative;
+}
+.form-title-subtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.form-title {
+  font-size: 22.43px;
+  color: #434343;
+}
+.form-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.23px;
+}
+.fill-in-your {
+  align-self: stretch;
+  position: relative;
+  line-height: 25.42px;
+}
+.form-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.button1,
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+.form-fields {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.48px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange);
+  border-radius: 2.99px;
+  width: 122.6px;
+  height: 41.86px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button1:hover {
+  background-color: #99600a;
+}
+.form,
+.share-your-travels-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: 8.97px;
+  background-color: var(--primary-contrast);
+  box-shadow: 0 0 17.94px rgba(0, 0, 0, 0.03);
+  border: 0.7px solid var(--color-whitesmoke);
+  padding: 20.931108474731445px 22.426189422607422px;
+  align-items: flex-start;
+  gap: 12.71px;
+  text-align: left;
+  color: #576074;
+}
+.share-your-travels-form {
+  position: relative !important;
+  top: 38.87px;
+  left: auto !important;
+  width: 410.4px;
+  padding: 14.950791358947754px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 22.43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.share-your-travels-form-wrapper {
+  align-self: stretch;
+  position: relative;
+  height: 395.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/frame-708@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer-section,
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-section {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--components-button-large);
+}
+.homepage {
+  position: relative;
+  border-radius: 16px;
+  background-color: var(--primary-contrast);
+  width: 100%;
+  height: 850.71px;
+  overflow: hidden;
+  align-items: center;
+  gap: 51.58px;
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 768px) {
+  .home-contents {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .share-your-travels-form {
+    padding: var(--padding-5xl) 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .button1 {
+    width: 100%;
+  }
+  .button1:hover {
+    background-color: #9e6104;
+  }
+  .share-your-travels-form {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+  .homepage {
+    width: 100%;
+  }
+  .homepage:hover {
+    background-color: var(--color-orange);
+  }
+}

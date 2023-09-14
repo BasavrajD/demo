@@ -1,0 +1,123 @@
+.most-popular-destinations,
+.plan-your-next {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.most-popular-destinations {
+  font-size: 22.43px;
+  text-transform: capitalize;
+  color: var(--color-darkslategray-200);
+}
+.title-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.49px;
+}
+.view-all-destinations {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 147.51px;
+  flex-shrink: 0;
+}
+.arrow-right-icon {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cards-container,
+.destinations-titles,
+.view-all-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.view-all-top {
+  text-decoration: none;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 172.97px;
+  align-items: flex-start;
+  gap: 7.48px;
+  text-align: right;
+  color: inherit;
+}
+.cards-container,
+.destinations-titles {
+  align-self: stretch;
+  align-items: center;
+}
+.cards-container {
+  align-items: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.view-all-destinations1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 147.51px;
+  flex-shrink: 0;
+}
+.pop-destinations-main,
+.view-all-bottom {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.view-all-bottom {
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  width: 172.97px;
+  display: none;
+  flex-direction: row;
+  gap: 7.48px;
+  text-align: right;
+}
+.pop-destinations-main {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 17.94px;
+  text-align: left;
+  font-size: 13.46px;
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 768px) {
+  .view-all-top {
+    display: none;
+  }
+  .cards-container {
+    flex-wrap: wrap;
+    margin: -16px;
+  }
+  .view-all-destinations1 {
+    width: auto;
+  }
+  .view-all-bottom {
+    display: flex;
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .most-popular-destinations {
+    font-size: var(--font-size-3xl);
+  }
+  .title-container {
+    flex: unset;
+    align-self: stretch;
+  }
+  .destinations-titles {
+    flex-direction: column;
+    align-self: flex-start;
+  }
+}

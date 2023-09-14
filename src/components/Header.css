@@ -1,0 +1,119 @@
+.fickleflight-logo-icon {
+  position: relative;
+  width: 130.07px;
+  height: 24.67px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.explore,
+.hotels,
+.offers,
+.search {
+  position: relative;
+  display: inline-block;
+  height: 11.96px;
+  flex-shrink: 0;
+}
+.explore {
+  color: var(--color-cornflowerblue-100);
+  width: 35.13px;
+}
+.hotels,
+.offers,
+.search {
+  width: 32.14px;
+}
+.hotels,
+.offers {
+  width: 30.65px;
+}
+.offers {
+  width: 29.15px;
+}
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22.43px;
+}
+.hamburger-menu-icon {
+  display: none;
+}
+.hamburger-menu-icon,
+.notification-bell-icon {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.unsplashd1upkifd04a-icon {
+  border-radius: 28.41px;
+  width: 26.91px;
+  height: 26.91px;
+  object-fit: cover;
+}
+.account-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8.97px;
+}
+.navigation-right {
+  justify-content: flex-end;
+  gap: 26.91px;
+}
+.navigation-right,
+.top-container,
+.top-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top-container {
+  flex: 1;
+  justify-content: space-between;
+}
+.top-header {
+  align-self: stretch;
+  background-color: var(--primary-contrast);
+  height: 57.56px;
+  padding: 16.445871353149414px 59.803165435791016px;
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  text-align: left;
+  font-size: 10.47px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1440px) {
+  .top-header {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navigation-menu {
+    display: none;
+  }
+  .hamburger-menu-icon {
+    display: flex;
+  }
+  .top-header {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .navigation-right {
+    display: flex;
+  }
+}
